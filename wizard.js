@@ -92,8 +92,8 @@ class iceWizard extends wizard{
     }
 }
 
-// fireWizard(100,50)
-// iceWizard(120,60)
+// fireWizard(100,60)
+// iceWizard(120,70)
 
 let fire = new fireWizard();
 let ice = new iceWizard();
@@ -107,3 +107,4 @@ fire.attack(ice);
 ice.attack(fire);
 ice.attack(fire);  
 ice.attack(fire);
+
